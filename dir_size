@@ -1,5 +1,5 @@
 #!/bin/bash
-
+echo " Searching for folders and displaying with their size"
 folder_name=`ls /home/ubuntu/folder`
 
 for i in $folder_name
