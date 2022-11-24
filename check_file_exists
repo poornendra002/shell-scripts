@@ -1,0 +1,11 @@
+#!/bin/bash
+
+find . -iname "mydata.log" > file
+if [ -s file ];then
+
+    echo " File mydata.log exists "
+else
+      sudo cat /etc/passwd > mydata.log
+      cat mydata.log
+fi
+      rm -rf mydata.log
